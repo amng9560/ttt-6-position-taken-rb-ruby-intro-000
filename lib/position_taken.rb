@@ -2,8 +2,8 @@
 ttt_board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def position_taken?(board, index)
   taken = nil
-  if (board[index]== " " || board[index] == "" || board[index] == nil)
-    taken = false
-  else
-    taken = true
+   if (board[index] ==  " " || board[index] == "" || board[index] == nil)
+     taken = false
+   else
+     taken = true
 end
